@@ -1,0 +1,5 @@
+
+
+
+int count=1,a;
+float b;

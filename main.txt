@@ -1,0 +1,10 @@
+int main(void) {
+    int a;
+    for(a = 1; a < 3; a++) {
+        printf("%d", a);
+    }
+
+    for(; a >= 0; a--) {
+        printf("%d", a);
+    }
+}

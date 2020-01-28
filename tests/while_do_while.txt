@@ -1,0 +1,12 @@
+int main(void) {
+    int a = 3;
+    while(a) {
+        printf("%d", a);
+        a--;
+    }
+
+    do {
+        printf("%d", a);
+        a++;
+    } while(a < 3);
+}

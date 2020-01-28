@@ -1,0 +1,9 @@
+int main(void) {
+    int *a, *b, *c, *d, *e;
+    a = malloc(111);
+    b = malloc(222);
+    c = malloc(333);
+    free(b);
+    d = malloc(444);
+    e = malloc(555);
+}
